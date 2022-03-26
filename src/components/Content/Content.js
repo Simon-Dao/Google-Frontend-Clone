@@ -18,7 +18,7 @@ export default function Content({searchData}) {
         'X-User-Agent': 'desktop',
         'X-Proxy-Location': 'EU',
         'X-RapidAPI-Host': 'google-search3.p.rapidapi.com',
-        'X-RapidAPI-Key': '0c20398768mshc8fa476a55e7a2fp194ba8jsn61ca42d635fc'
+        'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY
       }
     };
     
@@ -36,9 +36,9 @@ export default function Content({searchData}) {
   return (
     <div className='d-flex result-container' style={{flexWrap:'wrap'}}>
       {
-        links.map((result) => {
+        links.map((result, index) => {
           return (
-            <div className='card card-custom'>
+            <div key={index} className='card card-custom'>
               <div className='card-body card-body-custom'>
                 <a href={result.link} className='card-title card-title-custom'>
                   {result.title}
