@@ -3,6 +3,10 @@ import React, {useState} from 'react'
 import './Header.css'
 import Option from '../Options/Option'
 import {light} from '../../Style/themes'
+import { Link } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom'
+import All from '../All/All'
+import Images from '../Images/Images'
 
 export default function Header({searchData}) {
 
@@ -61,10 +65,12 @@ export default function Header({searchData}) {
 
       <nav className="navbar navbar-custom shadow-custom" style={navBarCustom}>
         <div style={{marginLeft:'50px'}} className="btn-group" role="group" aria-label="Basic example">
-          <Option type='All'/>
-          <Option type='Images'/>
-          <Option type='Videos'/>
-          <Option type='News'/>
+
+            <Option type='All'/>
+            <Option type='Images'/>
+            <Option type='Videos'/>
+            <Option type='News'/>
+
         </div>
       </nav>
     </>

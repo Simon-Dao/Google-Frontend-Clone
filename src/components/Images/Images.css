@@ -1,0 +1,15 @@
+.text {
+    margin-top: 10px;
+    font-size: small;
+}
+
+.card-custom {
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 50px 0px;
+    flex-direction: column;
+    width: 300px;
+}
+.image {
+    
+}

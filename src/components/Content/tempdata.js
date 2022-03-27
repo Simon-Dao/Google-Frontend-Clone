@@ -1,201 +1,236 @@
-export default [
-    {
-        "title": "Elon Musk - Wikipedia",
-        "link": "https://en.wikipedia.org/wiki/Elon_Musk",
-        "description": "Elon Musk - Wikipediahttps://en.wikipedia.org › wiki › Elon_Muskhttps://en.wikipedia.org › wiki › Elon_MuskElon Reeve Musk FRS is an entrepreneur and business magnate. He is the founder, CEO, and Chief Engineer at SpaceX; early-stage investor, CEO, ...Citizenship: South Africa; Canada; United StatesTitle: Founder, CEO and Chief Engineer of Sp...‎Relatives: Tosca Musk (sister); ‎Kimbal Musk‎ ...‎Education: University of Pennsylvania (‎BS‎, ‎BA‎)‎‎Tesla Roadster · ‎Tesla, SpaceX, and the Quest... · ‎Justine Musk · ‎Kimbal Musk",
-        "additional_links": [
+ export default {
+    "data": {
+        "results": [
             {
-                "text": "Elon Musk - Wikipediahttps://en.wikipedia.org › wiki › Elon_Musk",
-                "href": "https://en.wikipedia.org/wiki/Elon_Musk"
+                "title": "Elon Musk - Wikipedia",
+                "link": "https://de.wikipedia.org/wiki/Elon_Musk",
+                "description": "Elon Musk - Wikipediahttps://de.wikipedia.org › wiki › Elon_Muskhttps://de.wikipedia.org › wiki › Elon_MuskIm CacheÄhnliche SeitenElon Reeve Musk [ˈiːlɒn ˈɹiːv ˈmʌsk] (* 28. Juni 1971 in Pretoria) ist ein aus Südafrika stammender und in den Vereinigten Staaten wirkender Unternehmer.NAME: Musk, ElonGEBURTSDATUM: 28. Juni 1971GEBURTSORT: Pretoria, SüdafrikaKURZBESCHREIBUNG: kanadisch-US-ameri...‎Kategorie:Elon Musk · ‎Justine Musk · ‎Maye Musk · ‎Tosca Musk",
+                "additional_links": [
+                    {
+                        "text": "Elon Musk - Wikipediahttps://de.wikipedia.org › wiki › Elon_Musk",
+                        "href": "https://de.wikipedia.org/wiki/Elon_Musk"
+                    },
+                    {
+                        "text": "Im Cache",
+                        "href": "https://webcache.googleusercontent.com/search?q=cache:V26tMlhIduQJ:https://de.wikipedia.org/wiki/Elon_Musk+&cd=1&hl=de&ct=clnk&gl=de"
+                    },
+                    {
+                        "text": "Kategorie:Elon Musk",
+                        "href": "https://de.wikipedia.org/wiki/Kategorie:Elon_Musk"
+                    },
+                    {
+                        "text": "Justine Musk",
+                        "href": "https://de.wikipedia.org/wiki/Justine_Musk"
+                    },
+                    {
+                        "text": "Maye Musk",
+                        "href": "https://de.wikipedia.org/wiki/Maye_Musk"
+                    },
+                    {
+                        "text": "Tosca Musk",
+                        "href": "https://de.wikipedia.org/wiki/Tosca_Musk"
+                    },
+                    {
+                        "text": "",
+                        "href": "https://de.wikipedia.org/wiki/Elon_Musk"
+                    }
+                ],
+                "cite": {
+                    "domain": "https://de.wikipedia.org › wiki › Elon_Musk",
+                    "span": " › wiki › Elon_Musk"
+                }
             },
             {
-                "text": "Sp...",
-                "href": "http://en.wikipedia.org/wiki/SpaceX"
+                "title": "Elon Musk (@elonmusk) · Twitter",
+                "link": "https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+                "description": "",
+                "cite": {}
             },
             {
-                "text": "Tosca Musk",
-                "href": "http://en.wikipedia.org/wiki/Tosca_Musk"
+                "title": "Elon Musk: Aktuelle News zum Tesla-CEO | FAZ Nachrichten",
+                "link": "https://www.faz.net/aktuell/wirtschaft/thema/elon-musk",
+                "description": "https://www.faz.net › ... › Wirtschaft-Themen › Elon Musk",
+                "additional_links": [
+                    {
+                        "text": "Elon Musk: Aktuelle News zum Tesla-CEO | FAZ Nachrichtenhttps://www.faz.net › ... › Wirtschaft-Themen › Elon Musk",
+                        "href": "https://www.faz.net/aktuell/wirtschaft/thema/elon-musk"
+                    },
+                    {
+                        "text": "",
+                        "href": "https://www.faz.net/aktuell/wirtschaft/thema/elon-musk"
+                    }
+                ],
+                "cite": {
+                    "domain": "https://www.faz.net › ... › Wirtschaft-Themen › Elon Musk",
+                    "span": " › ... › Wirtschaft-Themen › Elon Musk"
+                }
             },
             {
-                "text": "Kimbal Musk",
-                "href": "http://en.wikipedia.org/wiki/Kimbal_Musk"
+                "title": "Elon Musk | Tesla Deutschland",
+                "link": "https://www.tesla.com/de_DE/elon-musk",
+                "description": "Als Mitbegründer und CEO von Tesla ist Elon für die gesamte Produktentwicklung, das Engineering und die weltweite Herstellung von Elektrofahrzeugen, ...",
+                "additional_links": [
+                    {
+                        "text": "Elon Musk | Tesla Deutschlandhttps://www.tesla.com › de_DE › elon-musk",
+                        "href": "https://www.tesla.com/de_DE/elon-musk"
+                    },
+                    {
+                        "text": "Im Cache",
+                        "href": "https://webcache.googleusercontent.com/search?q=cache:lPQYWMD8DNAJ:https://www.tesla.com/de_DE/elon-musk+&cd=26&hl=de&ct=clnk&gl=de"
+                    }
+                ],
+                "cite": {
+                    "domain": "https://www.tesla.com › de_DE › elon-musk",
+                    "span": " › de_DE › elon-musk"
+                }
             },
             {
-                "text": "University of Pennsylvania",
-                "href": "http://en.wikipedia.org/wiki/University_of_Pennsylvania"
+                "title": "Elon Musk - Starporträt, News, Bilder | GALA.de",
+                "link": "https://www.gala.de/stars/starportraets/elon-musk-21390076.html",
+                "description": "",
+                "additional_links": [
+                    {
+                        "text": "Elon Musk - Starporträt, News, Bilder | GALA.dehttps://www.gala.de › Stars › Starporträts",
+                        "href": "https://www.gala.de/stars/starportraets/elon-musk-21390076.html"
+                    },
+                    {
+                        "text": "Im Cache",
+                        "href": "https://webcache.googleusercontent.com/search?q=cache:KYB9_dgLsjsJ:https://www.gala.de/stars/starportraets/elon-musk-21390076.html+&cd=27&hl=de&ct=clnk&gl=de"
+                    },
+                    {
+                        "text": "",
+                        "href": "https://www.gala.de/stars/starportraets/elon-musk-21390076.html"
+                    }
+                ],
+                "cite": {
+                    "domain": "https://www.gala.de › Stars › Starporträts",
+                    "span": " › Stars › Starporträts"
+                }
             },
             {
-                "text": "BS",
-                "href": "http://en.wikipedia.org/wiki/Bachelor_of_Science"
+                "title": "Zweites Kind nach Sohn „X Æ A-Xii“: Elon Musk und ...",
+                "link": "https://www.tagesspiegel.de/gesellschaft/panorama/zweites-kind-nach-sohn-x-a-xii-elon-musk-und-grimes-verraten-namen-von-gemeinsamer-tochter/28153228.html",
+                "description": "https://www.tagesspiegel.de › Gesellschaft › Panorama",
+                "additional_links": [
+                    {
+                        "text": "Zweites Kind nach Sohn „X Æ A-Xii“: Elon Musk und ...https://www.tagesspiegel.de › Gesellschaft › Panorama",
+                        "href": "https://www.tagesspiegel.de/gesellschaft/panorama/zweites-kind-nach-sohn-x-a-xii-elon-musk-und-grimes-verraten-namen-von-gemeinsamer-tochter/28153228.html"
+                    },
+                    {
+                        "text": "",
+                        "href": "https://www.tagesspiegel.de/gesellschaft/panorama/zweites-kind-nach-sohn-x-a-xii-elon-musk-und-grimes-verraten-namen-von-gemeinsamer-tochter/28153228.html"
+                    }
+                ],
+                "cite": {
+                    "domain": "https://www.tagesspiegel.de › Gesellschaft › Panorama",
+                    "span": " › Gesellschaft › Panorama"
+                }
             },
             {
-                "text": "BA",
-                "href": "http://en.wikipedia.org/wiki/Bachelor_of_Arts"
+                "title": "Elon Musk News - Vermögen, Familie, SpaceX, Tesla und ...",
+                "link": "https://www.businessinsider.de/themen/elon-musk/",
+                "description": "https://www.businessinsider.de › themen › elon-muskIm Cache",
+                "additional_links": [
+                    {
+                        "text": "Elon Musk News - Vermögen, Familie, SpaceX, Tesla und ...https://www.businessinsider.de › themen › elon-musk",
+                        "href": "https://www.businessinsider.de/themen/elon-musk/"
+                    },
+                    {
+                        "text": "Im Cache",
+                        "href": "https://webcache.googleusercontent.com/search?q=cache:ZyFTjzgNCmgJ:https://www.businessinsider.de/themen/elon-musk/+&cd=29&hl=de&ct=clnk&gl=de"
+                    },
+                    {
+                        "text": "",
+                        "href": "https://www.businessinsider.de/themen/elon-musk/"
+                    }
+                ],
+                "cite": {
+                    "domain": "https://www.businessinsider.de › themen › elon-musk",
+                    "span": " › themen › elon-musk"
+                }
             },
             {
-                "text": "Tesla Roadster",
-                "href": "https://en.wikipedia.org/wiki/Elon_Musk%27s_Tesla_Roadster"
-            },
-            {
-                "text": "Tesla, SpaceX, and the Quest...",
-                "href": "https://en.wikipedia.org/wiki/Elon_Musk:_Tesla,_SpaceX,_and_the_Quest_for_a_Fantastic_Future"
-            },
-            {
-                "text": "Justine Musk",
-                "href": "https://en.wikipedia.org/wiki/Justine_Musk"
-            },
-            {
-                "text": "Kimbal Musk",
-                "href": "https://en.wikipedia.org/wiki/Kimbal_Musk"
-            },
-            {
-                "text": "",
-                "href": "https://en.wikipedia.org/wiki/Elon_Musk"
+                "title": "Elon Musk | STERN.de",
+                "link": "https://www.stern.de/wirtschaft/news/themen/elon-musk-4161628.html",
+                "description": "https://www.stern.de › Wirtschaft › News",
+                "additional_links": [
+                    {
+                        "text": "Elon Musk | STERN.dehttps://www.stern.de › Wirtschaft › News",
+                        "href": "https://www.stern.de/wirtschaft/news/themen/elon-musk-4161628.html"
+                    },
+                    {
+                        "text": "",
+                        "href": "https://www.stern.de/wirtschaft/news/themen/elon-musk-4161628.html"
+                    }
+                ],
+                "cite": {
+                    "domain": "https://www.stern.de › Wirtschaft › News",
+                    "span": " › Wirtschaft › News"
+                }
             }
         ],
-        "cite": {
-            "domain": "https://en.wikipedia.org › wiki › Elon_Musk",
-            "span": " › wiki › Elon_Musk"
-        }
-    },
-    {
-        "title": "Elon Musk - Forbes",
-        "link": "https://www.forbes.com/profile/elon-musk/",
-        "description": "Elon Musk - Forbeshttps://www.forbes.com › profile › elon-muskhttps://www.forbes.com › profile › elon-muskElon Musk is working to revolutionize transportation both on Earth, through electric car maker Tesla -- and in space, via rocket producer SpaceX.Education: University of Pennsylvania, Stanford",
-        "additional_links": [
-            {
-                "text": "Elon Musk - Forbeshttps://www.forbes.com › profile › elon-musk",
-                "href": "https://www.forbes.com/profile/elon-musk/"
-            },
-            {
-                "text": "",
-                "href": "https://www.forbes.com/profile/elon-musk/"
-            }
+        "image_results": [],
+        "total": 177000000,
+        "answers": [
+            "Ähnliche Fragen",
+            "Wie hoch ist der IQ von Elon Musk?",
+            "Wie kontaktiert man Elon Musk?",
+            "Was gehört Elon Musk?",
+            "Wem gehört PayPal Elon Musk?"
         ],
-        "cite": {
-            "domain": "https://www.forbes.com › profile › elon-musk",
-            "span": " › profile › elon-musk"
-        }
+        "ts": 2.8063127994537354,
+        "device_region": "EU",
+        "device_type": "desktop"
     },
-    {
-        "title": "Elon Musk | Biography, SpaceX, Tesla, & Facts | Britannica",
-        "link": "https://www.britannica.com/biography/Elon-Musk",
-        "description": "Elon Musk | Biography, SpaceX, Tesla, & Facts | Britannicahttps://www.britannica.com › biography › Elon-Muskhttps://www.britannica.com › biography › Elon-MuskElon Musk, (born June 28, 1971, Pretoria, South Africa), South African-born American entrepreneur who cofounded the electronic-payment firm PayPal and ...Early life: Musk was born to a South African fat...Founder: PayPal SpaceX Zip2Born: June 28, 1971 (age 50) Pretoria‎ ‎South A...‎",
-        "additional_links": [
-            {
-                "text": "Elon Musk | Biography, SpaceX, Tesla, & Facts | Britannicahttps://www.britannica.com › biography › Elon-Musk",
-                "href": "https://www.britannica.com/biography/Elon-Musk"
-            },
-            {
-                "text": "Pretoria",
-                "href": "http://britannica.com/place/Pretoria"
-            },
-            {
-                "text": "South A...",
-                "href": "http://britannica.com/place/South-Africa"
-            },
-            {
-                "text": "",
-                "href": "https://www.britannica.com/biography/Elon-Musk"
-            }
-        ],
-        "cite": {
-            "domain": "https://www.britannica.com › biography › Elon-Musk",
-            "span": " › biography › Elon-Musk"
-        }
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+        "access-control-allow-credentials": "true",
+        "access-control-allow-origin": "http://localhost:3000",
+        "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+        "cf-cache-status": "DYNAMIC",
+        "cf-ray": "6f2633d069e9f565-SEA",
+        "connection": "keep-alive",
+        "content-encoding": "br",
+        "content-length": "1580",
+        "content-type": "application/json",
+        "date": "Sun, 27 Mar 2022 06:52:17 GMT",
+        "expect-ct": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+        "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+        "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=UnEXNv9eVLycct2%2BwUSvjpcvmmp%2FKEba0TosVn5evNaikSklHhQzlqdqR%2BX7R%2FbFndQv6%2BuDmTBZtwWiiqSkOcvq3YYJ3FWRapKvDiGi098FpdQe3JpbZw37YD%2BbjQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+        "server": "RapidAPI-1.2.8",
+        "x-rapidapi-region": "AWS - us-west-2",
+        "x-rapidapi-version": "1.2.8",
+        "x-ratelimit-search-limit": "600",
+        "x-ratelimit-search-remaining": "405",
+        "x-ratelimit-search-reset": "2586219"
     },
-    {
-        "title": "Elon Musk | Tesla",
-        "link": "https://www.tesla.com/elon-musk",
-        "description": "Elon Musk co-founded and leads Tesla, SpaceX, Neuralink and The Boring Company. As the co-founder and CEO of Tesla, Elon leads all product design, ...",
-        "additional_links": [
-            {
-                "text": "Elon Musk | Teslahttps://www.tesla.com › elon-musk",
-                "href": "https://www.tesla.com/elon-musk"
-            }
-        ],
-        "cite": {
-            "domain": "https://www.tesla.com › elon-musk",
-            "span": " › elon-musk"
-        }
-    },
-    {
-        "title": "Elon Musk (@elonmusk) · Twitter",
-        "link": "https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-        "description": "",
-        "cite": {}
-    },
-    {
-        "title": "@elonmusk • Instagram photos and videos",
-        "link": "https://www.instagram.com/elonmusk/?hl=en",
-        "description": "elonmusk ; teslamotors · Tesla ; spacex · SpaceX ; therock · therock ; snoopdogg · snoopdogg ; elonmuskx. Elon Musk Daily.",
-        "additional_links": [
-            {
-                "text": "@elonmusk • Instagram photos and videoshttps://www.instagram.com › elonmusk",
-                "href": "https://www.instagram.com/elonmusk/?hl=en"
-            }
-        ],
-        "cite": {
-            "domain": "https://www.instagram.com › elonmusk",
-            "span": " › elonmusk"
-        }
-    },
-    {
-        "title": "Grimes Reveals Y, Her New Baby Daughter With Elon Musk ...",
-        "link": "https://www.vanityfair.com/style/2022/03/grimes-cover-story-on-music-and-mars",
-        "description": "Mar 10, 2022 — “Infamy Is Kind Of Fun”: Grimes on Music, Mars, and Her Secret New Baby With Elon Musk. The visionary pop star holds nothing back, ...",
-        "additional_links": [
-            {
-                "text": "Grimes Reveals Y, Her New Baby Daughter With Elon Musk ...https://www.vanityfair.com › Style › elon musk",
-                "href": "https://www.vanityfair.com/style/2022/03/grimes-cover-story-on-music-and-mars"
-            }
-        ],
-        "cite": {
-            "domain": "https://www.vanityfair.com › Style › elon musk",
-            "span": " › Style › elon musk"
-        }
-    },
-    {
-        "title": "Elon Musk - CNBC",
-        "link": "https://www.cnbc.com/elon-musk/",
-        "description": "Latest · SpaceX raises prices for rocket launches and Starlink satellite internet as inflation hits raw materials · Michael SheetzMarch 23, 2022 · Elon Musk ...",
-        "additional_links": [
-            {
-                "text": "Elon Musk - CNBChttps://www.cnbc.com › elon-musk",
-                "href": "https://www.cnbc.com/elon-musk/"
-            }
-        ],
-        "cite": {
-            "domain": "https://www.cnbc.com › elon-musk",
-            "span": " › elon-musk"
-        }
-    },
-    {
-        "title": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic ...",
-        "link": "https://www.amazon.com/Elon-Musk-SpaceX-Fantastic-Future/dp/006230125X",
-        "description": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future [Vance, Ashlee] on Amazon.com. *FREE* shipping on qualifying offers. Elon Musk: Tesla, SpaceX ...",
-        "additional_links": [
-            {
-                "text": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic ...https://www.amazon.com › Elon-Musk-SpaceX-Fantasti...",
-                "href": "https://www.amazon.com/Elon-Musk-SpaceX-Fantastic-Future/dp/006230125X"
-            }
-        ],
-        "cite": {
-            "domain": "https://www.amazon.com › Elon-Musk-SpaceX-Fantasti...",
-            "span": " › Elon-Musk-SpaceX-Fantasti..."
+    "config": {
+        "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
         },
-        "g_review_stars": " Rating: 4.7 · ‎14,209 reviews"
-    },
-    {
-        "title": "SpaceX",
-        "link": "https://www.spacex.com/",
-        "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, ...",
-        "additional_links": [
-            {
-                "text": "SpaceXhttps://www.spacex.com",
-                "href": "https://www.spacex.com/"
-            }
+        "transformRequest": [
+            null
         ],
-        "cite": {}
-    }
-]
+        "transformResponse": [
+            null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "X-User-Agent": "desktop",
+            "X-Proxy-Location": "EU",
+            "X-RapidAPI-Host": "google-search3.p.rapidapi.com",
+            "X-RapidAPI-Key": "0c20398768mshc8fa476a55e7a2fp194ba8jsn61ca42d635fc"
+        },
+        "method": "get",
+        "url": "https://google-search3.p.rapidapi.com/api/v1/search/q=Elon+Musk"
+    },
+    "request": {}
+}
