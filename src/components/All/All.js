@@ -23,9 +23,7 @@ export default function All({searchData}) {
       }
     };
     
-    console.log(question)
-
-    let result = /*tempData*/await axios.request(options)
+    let result = tempData//await axios.request(options)
     if(!result.data.results) throw new Error('Could not fetch results!') 
 
     let usefulData = result.data.results

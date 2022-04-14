@@ -8,11 +8,10 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import All from '../All/All'
 import Images from '../Images/Images'
 
-export default function Header({searchData}) {
+export default function Header({searchData, state}) {
 
   let {question, setQuestion} = searchData 
-
-  const [searchText, setSearchText] = useState('') 
+  let {searchText, setSearchText} = state
 
   const theme = light
 
@@ -35,6 +34,7 @@ export default function Header({searchData}) {
   const onChange = (e) => {
     //setQuestion(e.target.value)
     setSearchText(e.target.value)
+    localStorage.setItem('searchText', e.target.value)
   }
 
   return (
@@ -53,7 +53,7 @@ export default function Header({searchData}) {
               {/* Simon's Mega Optimised General Language Engine */}
             </div>
             <form onSubmit={(e)=> onSubmit(e)} className="d-flex">
-              <input className="form-control me-2 search-bar" type="search" placeholder="Search" aria-label="Search" onChange={onChange}/>
+              <input className="form-control me-2 search-bar" type="search" placeholder="Search" aria-label="Search" onChange={onChange} value={searchText}/>
               <button className="btn btn-primary search-button" type="submit">Search</button>
             </form>
 

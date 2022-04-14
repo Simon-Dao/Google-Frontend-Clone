@@ -7,16 +7,13 @@ import { Container } from '@mui/material'
 function Main() {
 
   const [question, _setQuestion] = useState('Elon+Musk')
-
+  
   const setQuestion = (newQuestion) => {
     _setQuestion(newQuestion.replace(" ", "+"))
   }
   
   return (
-    <>
-      <Header searchData={{question, setQuestion}}/>
-      <Content searchData={{question, setQuestion}}/>
-    </>
+    <Content searchData={{question, setQuestion}}/>
   )
 }
 
