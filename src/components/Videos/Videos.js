@@ -3,7 +3,7 @@ import axios from 'axios'
 import '../Content/Content.css'
 import { useEffect, useState } from 'react'
 import tempData from './data'
-import fetchData from '../../utils/fetchData'
+import {fetchData} from '../../utils/fetchData'
 
 export default function Videos({searchData}) {
 

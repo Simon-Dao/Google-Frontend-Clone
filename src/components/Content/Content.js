@@ -20,6 +20,7 @@ export default function Content({searchData}) {
 
   useEffect(()=> {
     setSearchText(localStorage.getItem('searchText'))
+    
   },[])
 
   return (

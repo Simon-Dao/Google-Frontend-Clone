@@ -3,7 +3,7 @@ import axios from 'axios'
 import tempData from '../Content/tempdata'
 import '../Content/Content.css'
 import { useEffect, useState } from 'react'
-import fetchData from '../../utils/fetchData'
+import {fetchData} from '../../utils/fetchData'
 
 export default function All({searchData}) {
 

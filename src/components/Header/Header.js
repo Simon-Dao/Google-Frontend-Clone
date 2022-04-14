@@ -7,11 +7,16 @@ import { Link } from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom'
 import All from '../All/All'
 import Images from '../Images/Images'
+import { useEffect } from 'react'
 
 export default function Header({searchData, state}) {
 
   let {question, setQuestion} = searchData 
   let {searchText, setSearchText} = state
+
+  useEffect(() => {
+    setQuestion(localStorage.getItem('question'))
+  }, [])
 
   const theme = light
 
@@ -28,13 +33,15 @@ export default function Header({searchData, state}) {
 
   const onSubmit = (e) => {
     e.preventDefault()
-    setQuestion(searchText)    
+    setQuestion(searchText)
+    localStorage.setItem('question', searchText)    
   }
 
   const onEnterPress = (e) => {
     if(e.key !== 'Enter') return
 
     setQuestion(searchText)
+    localStorage.setItem('question', searchText)    
   }
 
   const onChange = (e) => {

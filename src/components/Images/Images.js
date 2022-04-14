@@ -4,7 +4,7 @@ import tempData from './imagedata'
 import '../Content/Content.css'
 import './Images.css'
 import { useEffect, useState } from 'react'
-import fetchData from '../../utils/fetchData'
+import { fetchImages } from '../../utils/fetchData'
 
 export default function Images({searchData}) {
 
@@ -14,24 +14,22 @@ export default function Images({searchData}) {
 
   useEffect(() => {
     
-    
     async function fetch() {
           
-      var options = {
-      method: 'GET',
-      url: 'https://google-search3.p.rapidapi.com/api/v1/image/q='+question,
-      headers: {
-        'X-User-Agent': 'desktop',
-        'X-Proxy-Location': 'EU',
-        'X-RapidAPI-Host': 'google-search3.p.rapidapi.com',
-        'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY
+      let options = {
+        method: 'GET',
+        url: 'https://google-search3.p.rapidapi.com/api/v1/image/q='+question,
+        headers: {
+          'X-User-Agent': 'desktop',
+          'X-Proxy-Location': 'EU',
+          'X-RapidAPI-Host': 'google-search3.p.rapidapi.com',
+          'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY
+        }
       }
-      }
-
-      fetchData(options, images, setImages)
+      
+      fetchImages(options, images, setImages)
     }
-
-    fetch() 
+    fetch()
   })
 
   return (
@@ -41,8 +39,8 @@ export default function Images({searchData}) {
 
           return (
             <div className='card-custom d-flex'>
-              <a href={result.link.href}>
-                <img className="image" src={result.image.src} alt={result.image.alt} />
+              <a href={result.link.href}>                
+                <img className="image" key={index} src={result.image.src} alt={result.image.alt} />
               </a>
 
               <div className='text'>{result.link.title}</div>
