@@ -3,6 +3,7 @@ import axios from 'axios'
 import tempData from '../Content/tempdata'
 import '../Content/Content.css'
 import { useEffect, useState } from 'react'
+import fetchData from '../../utils/fetchData'
 
 export default function All({searchData}) {
 
@@ -10,26 +11,25 @@ export default function All({searchData}) {
 
   const [links, setLinks] = useState([])
 
-  useEffect( async () => {
+  useEffect(() => {
     
-    var options = {
-      method: 'GET',
-      url: 'https://google-search3.p.rapidapi.com/api/v1/search/q='+question,
-      headers: {
-        'X-User-Agent': 'desktop',
-        'X-Proxy-Location': 'EU',
-        'X-RapidAPI-Host': 'google-search3.p.rapidapi.com',
-        'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY
-      }
-    };
     
-    let result = tempData//await axios.request(options)
-    if(!result.data.results) throw new Error('Could not fetch results!') 
+    async function fetch() {
+      var options = {
+        method: 'GET',
+        url: 'https://google-search3.p.rapidapi.com/api/v1/search/q='+question,
+        headers: {
+          'X-User-Agent': 'desktop',
+          'X-Proxy-Location': 'EU',
+          'X-RapidAPI-Host': 'google-search3.p.rapidapi.com',
+          'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY
+        }
+      };
 
-    let usefulData = result.data.results
-    
-    if( usefulData != [] && JSON.stringify(usefulData) !== JSON.stringify(links)) setLinks(usefulData)
-    
+      fetchData(options, links, setLinks)
+    }
+
+    fetch() 
   })
 
   return (

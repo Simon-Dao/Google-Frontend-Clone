@@ -4,6 +4,7 @@ import tempData from './imagedata'
 import '../Content/Content.css'
 import './Images.css'
 import { useEffect, useState } from 'react'
+import fetchData from '../../utils/fetchData'
 
 export default function Images({searchData}) {
 
@@ -11,28 +12,26 @@ export default function Images({searchData}) {
   
   const [images, setImages] = useState([])
 
-  useEffect( async () => {
-        
-  var options = {
-    method: 'GET',
-    url: 'https://google-search3.p.rapidapi.com/api/v1/image/q='+question,
-    headers: {
-      'X-User-Agent': 'desktop',
-      'X-Proxy-Location': 'EU',
-      'X-RapidAPI-Host': 'google-search3.p.rapidapi.com',
-      'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY
-    }
-  }
+  useEffect(() => {
     
-  
-  let result = tempData//await axios.request(options)
-  console.log(result)
-  if(!result.data.results) throw new Error('Could not fetch results!') 
+    
+    async function fetch() {
+          
+      var options = {
+      method: 'GET',
+      url: 'https://google-search3.p.rapidapi.com/api/v1/image/q='+question,
+      headers: {
+        'X-User-Agent': 'desktop',
+        'X-Proxy-Location': 'EU',
+        'X-RapidAPI-Host': 'google-search3.p.rapidapi.com',
+        'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY
+      }
+      }
 
-    let usefulData = result.data.image_results
-    
-    if( usefulData != [] && JSON.stringify(usefulData) !== JSON.stringify(images)) setImages(usefulData)
-    
+      fetchData(options, images, setImages)
+    }
+
+    fetch() 
   })
 
   return (

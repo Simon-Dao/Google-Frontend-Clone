@@ -2,9 +2,11 @@ import axios from 'axios'
 import tempdata from '../components/Content/tempdata'
 
 export default async function fetchData(options, stateVar, stateSetter) {
-      
-  let result = tempdata//await axios.request(options)
-  
+
+  //maybe put animation here????? idk
+
+  let result = /*tempdata*/await axios.request(options)
+
   if(!result.data.results) throw new Error('Could not fetch results!') 
 
   let usefulData = result.data.results

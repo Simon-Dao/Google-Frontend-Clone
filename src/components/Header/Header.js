@@ -31,6 +31,12 @@ export default function Header({searchData, state}) {
     setQuestion(searchText)    
   }
 
+  const onEnterPress = (e) => {
+    if(e.key !== 'Enter') return
+
+    setQuestion(searchText)
+  }
+
   const onChange = (e) => {
     //setQuestion(e.target.value)
     setSearchText(e.target.value)
@@ -53,7 +59,7 @@ export default function Header({searchData, state}) {
               {/* Simon's Mega Optimised General Language Engine */}
             </div>
             <form onSubmit={(e)=> onSubmit(e)} className="d-flex">
-              <input className="form-control me-2 search-bar" type="search" placeholder="Search" aria-label="Search" onChange={onChange} value={searchText}/>
+              <input onKeyDown={onEnterPress} className="form-control me-2 search-bar" type="search" placeholder="Search" aria-label="Search" onChange={onChange} value={searchText}/>
               <button className="btn btn-primary search-button" type="submit">Search</button>
             </form>
 

@@ -3,6 +3,7 @@ import axios from 'axios'
 import '../Content/Content.css'
 import { useEffect, useState } from 'react'
 import tempData from './data'
+import fetchData from '../../utils/fetchData'
 
 export default function Videos({searchData}) {
 
@@ -10,29 +11,24 @@ export default function Videos({searchData}) {
   
   const [videos, setVideos] = useState([])
 
-  useEffect( async () => {
+  useEffect(() => {
         
-    var options = {
-      method: 'GET',
-      url: 'https://google-search3.p.rapidapi.com/api/v1/video/q='+question,
-      headers: {
-        'X-User-Agent': 'desktop',
-        'X-Proxy-Location': 'EU',
-        'X-RapidAPI-Host': 'google-search3.p.rapidapi.com',
-        'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY
-      }
-    };
-    
-  
-  let result = tempData//await axios.request(options)
-  console.log(result)
+    async function fetch() {
+      var options = {
+        method: 'GET',
+        url: 'https://google-search3.p.rapidapi.com/api/v1/video/q='+question,
+        headers: {
+          'X-User-Agent': 'desktop',
+          'X-Proxy-Location': 'EU',
+          'X-RapidAPI-Host': 'google-search3.p.rapidapi.com',
+          'X-RapidAPI-Key': process.env.REACT_APP_RAPID_API_KEY
+        }
+      };
 
-  if(!result.data.results) throw new Error('Could not fetch results!') 
+      fetchData(options, videos, setVideos)
+    }
 
-    let usefulData = result.data.results
-    
-    if( usefulData != [] && JSON.stringify(usefulData) !== JSON.stringify(videos)) setVideos(usefulData)
-    
+    fetch() 
   })
 
   return (
